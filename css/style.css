@@ -1,1 +1,108 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500&display=swap");
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  max-width: 1110px;
+  margin: auto;
+}
+.wrap header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap header .text {
+  display: flex;
+  -moz-column-gap: 54px;
+       column-gap: 54px;
+}
+.wrap header .text p {
+  color: var(--Medium-Grey, #686868);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+}
+.wrap header .btn {
+  display: flex;
+  align-items: center;
+}
+.wrap header .btn p {
+  padding-right: 40px;
+}
+.wrap header .btn button {
+  cursor: pointer;
+  padding-left: 23px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 23px;
+  border-radius: 14px;
+  border: 1.5px solid var(--Medium-Grey, #686868);
+}
+.wrap main {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap main .text-h1 h1 {
+  padding-top: 161px;
+  max-width: 500px;
+  color: var(--Black, #151515);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Heading L */
+  font-family: Epilogue;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 100% */
+  letter-spacing: -1.111px;
+}
+.wrap main .text-h1 p {
+  padding-top: 48px;
+  max-width: 445px;
+  color: var(--Medium-Grey, #686868);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Body M */
+  font-family: Epilogue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+.wrap main .text-h1 button {
+  margin-top: 51px;
+  color: var(--Almost-White, #FAFAFA);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Button */
+  font-family: Epilogue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.25px;
+  border-radius: 15px;
+  background: var(--Black, #151515);
+  cursor: pointer;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+.wrap main .text-h1 .img {
+  padding-top: 116px;
+}
+.wrap main .text-h1 .img img {
+  padding-left: 41px;
+  transform: translateX(-41px);
+}
+.wrap main .people {
+  padding-top: 44px;
+}/*# sourceMappingURL=style.css.map */
